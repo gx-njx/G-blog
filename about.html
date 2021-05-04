@@ -49,25 +49,28 @@
 				</div>
 			</div>
 		</section>
+		
 		<section>
 			<div class="container">
-			<div id="vcomments"></div>
+				<div id="vcomments"></div>
 			</div>
-		<script>
-			new Valine({
-				el: '#vcomments',
-				appId: 'Ee85sqCxFqIVneKshcfrNg0C-gzGzoHsz',
-				appKey: '6JO4dNVVzixLXSvAt8v3U8ik',
-				placeholder: '各位道友，请举手发言',
-				avatar: 'wavatar',
-				meta: ['nick','mail','link'],
-				recordIP: 'ture',
-				enableQQ: 'ture',
-				requiredFields: ['nick']
-				
-			})
-		</script>
+			<script>
+				new Valine({
+					el: '#vcomments',
+					appId: 'Ee85sqCxFqIVneKshcfrNg0C-gzGzoHsz',
+					appKey: '6JO4dNVVzixLXSvAt8v3U8ik',
+					placeholder: '各位道友，请举手发言',
+					avatar: 'wavatar',
+					meta: ['nick', 'mail', 'link'],
+					recordIP: 'ture',
+					requiredFields: ['nick']
+
+				})
+			</script>
 		</section>
+
+		<a class="btn btn-primary btn-lg" href="#" id="back-to-top"
+			style="position: fixed;display: none;right: 15px;bottom: 15px;">^</a>
 
 		<footer class="text-center">
 			<div class="container">
